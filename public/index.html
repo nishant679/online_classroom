@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="nis_nav_bar">
+
+        <span class="nis_nav_title">EDUCATOR </span>
+        <span class="nis_subt">DASHBOARD</span>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="profile_container">
+                <div class="profile_pic"></div>
+                <div class="person_name">educator name</div>
+                <div class="user_name">user1@name</div>
+
+                <btn class="profile_edit_btn">edit profile</btn>
+
+                <btn class="prime">prime</btn>
+
+                <p class="bio">
+                    bio- computer science student at
+                    National Institute of Technology, Tiruchirappalli.
+                    full stack developer and UX designer.
+                </p>
+                <div class="address">
+                    <div class="location_icon"></div>
+                    <p class="city">Tiruchirappalli, Tamil Nadu</p>
+                </div>
+
+                <!--
+    This is container for badge box
+    CSS class used:
+         1. flex_row : displaying each badge row wise
+         2. badge_box : defines the outline for badge container
+         3. badge_circle : making the badge circular
+
+         4 badge_num(1,2,3,..) : defines position for each badge.
+-->
+                <p class="badge_text">BADGES</p>
+                <div class="badge_box">
+                    <div class="flex_row">
+                        <div class="badge_circle badge_1" id="badge1"></div>
+                        <div class="badge_circle badge_3" id="badge2"></div>
+                        <div class="badge_circle badge_3" id="badge_3"></div>
+                    </div>
+                    <div class="flex_row">
+                        <div class="badge_circle badge_1" id="badge1"></div>
+                        <div class="badge_circle badge_2" id="badge2"></div>
+                        <div class="badge_circle badge_3" id="badge_3"></div>
+                    </div>
+                    <div class="flex_row">
+                        <div class="badge_circle badge_1" id="badge1"></div>
+                        <div class="badge_circle badge_3" id="badge2"></div>
+                        <div class="badge_circle badge_3" id="badge_3"></div>
+                    </div>
+
+                    <!---->
+                </div>
+
+            </div>
+        </div>
+        <!--
+            BELOW:
+            code to display the educator options;
+        -->
+        <div class="col-sm-7">
+            <div class="educator_opt_grid">
+                <div class="flex_row">
+                    <btn class="educator_opt_btn">
+                        <span class="bold_text">ADD</span></br>
+                        COURSE
+                    </btn>
+                    <btn class="educator_opt_btn" onclick="location.href ='live_classroom.html'">
+                        <span class="bold_text">LIVE</span>
+                        CLASSROOM</btn>
+                    <btn class="educator_opt_btn">
+                        <span class="bold_text">REVIEW</span>
+                        ASSINGMENT</btn>
+                </div>
+                <div class="flex_row">
+                    <btn class="educator_opt_btn">
+                        <span class="bold_text">SCHEDULE</span>
+                        CLASS</btn>
+                    <btn class="educator_opt_btn">
+                        <span class="bold_text">ASSIGN</span> </br>
+                        TASK</btn>
+                    <btn class="educator_opt_btn">
+                        <span class="bold_text">BROWSE</span>
+                        STUDENTS</btn>
+                </div>
+                <div class="flex_row">
+                    <btn class="educator_opt_btn">
+                        <span class="bold_text">COURSE</span>
+                        REVIEW</btn>
+                    <btn class="educator_opt_btn">
+                        <span class="bold_text">CREATE</span> </br>
+                        NOTICE</btn>
+                    <btn class="educator_opt_btn">
+                        <span class="bold_text">EXPLORE</span>
+                        COMMUNITY</btn>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
